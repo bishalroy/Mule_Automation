@@ -28,6 +28,23 @@
 				</configuration>
 			</plugin>
 			<plugin>
+                <groupId>org.mule.tools.maven</groupId>
+                <artifactId>mule-maven-plugin</artifactId>
+                <version>3.3.2</version>
+                <extensions>true</extensions>
+                <configuration>
+                 <armDeployment>
+                  <muleVersion>3.8.4</muleVersion>
+                  <uri>https://anypoint.mulesoft.com</uri>
+                  <target>local-sandbox-server</target>
+                  <targetType>server</targetType>
+                  <username>bishalz</username>
+                  <password>Ronaldo7</password>
+                  <environment>Sandbox</environment>
+                 </armDeployment>
+                </configuration>
+            </plugin>
+			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
 				<version>1.7</version>
