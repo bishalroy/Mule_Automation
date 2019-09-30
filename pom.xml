@@ -186,6 +186,12 @@
             <url>http://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
         </repository>
+        <repository>
+        <id>codehaus-mule-repo</id>
+        <name>codehaus-mule-repo</name>
+        <url>https://repository-master.mulesoft.org/nexus/content/groups/public/</url>
+        <layout>default</layout>
+    </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -194,7 +200,7 @@
             <layout>default</layout>
             <url>http://repository.mulesoft.org/releases/</url>
             <snapshots>
-                <enabled>true</enabled>
+                <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
@@ -203,7 +209,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>corp1</id>
       <name>Corporate Repository</name>
-      <url>http://repository.mulesoft.org/releases/</url> 
+      <url>https://repository-master.mulesoft.org/nexus/content/groups/public/</url> 
       <layout>default</layout>
      </repository>
     </distributionManagement>
