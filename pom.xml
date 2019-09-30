@@ -203,7 +203,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>corp1</id>
       <name>Corporate Repository</name>
-      <url>http://repository.mulesoft.org/releases</url> 
+      <url>http://repository.mulesoft.org/releases/</url> 
       <layout>default</layout>
      </repository>
     </distributionManagement>
