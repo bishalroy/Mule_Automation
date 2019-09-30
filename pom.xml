@@ -204,7 +204,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>corp1</id>
       <name>Corporate Repository</name>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>http://localhost:8082/artifactory/</url>
       <layout>default</layout>
     </repository>
     </distributionManagement>
