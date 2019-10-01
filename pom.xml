@@ -51,9 +51,11 @@
                   <uri>https://anypoint.mulesoft.com/</uri>
                   <target>local-sandbox-server</target>
                   <targetType>server</targetType>
-                  <username>bishalz</username>
-                  <password>Ronaldo7</password>
-                  <environment>Sandbox</environment>
+                  <username>bisroy</username>
+                  <password>Ronaldo7*1</password>
+                  <environment>Production</environment>
+                  <businessGroup>Cisco-DEV/Integration Services</businessGroup>
+                  <businessGroupId>4da9dbc6-fccc-4482-98ee-c9131df01021</businessGroupId>
                 </configuration>
                 <executions>
                  <execution>
