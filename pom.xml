@@ -48,7 +48,7 @@
                 <configuration>
                   <deploymentType>arm</deploymentType>
                   <muleVersion>3.8.4</muleVersion>
-                  <uri>https://anypoint.mulesoft.com</uri>
+                  <uri>https://anypoint.mulesoft.com/apiplatform/cisco-dev/admin/#/</uri>
                   <target>mmdatawv-mesb-dc03-01-dev</target>
                   <targetType>server</targetType>
                   <username>bisroy</username>
