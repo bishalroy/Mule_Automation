@@ -49,11 +49,11 @@
                   <deploymentType>arm</deploymentType>
                   <muleVersion>3.8.4</muleVersion>
                   <uri>https://anypoint.mulesoft.com</uri>
-                  <target>local-sandbox-server</target>
+                  <target>mmdatawv-mesb-dc03-01-dev</target>
                   <targetType>server</targetType>
-                  <username>bishalz</username>
-                  <password>Ronaldo7</password>
-                  <environment>Sandbox</environment>
+                  <username>bisroy</username>
+                  <password>Ronaldo7*1</password>
+                  <environment>Production</environment>
                 </configuration>
                 <executions>
                  <execution>
