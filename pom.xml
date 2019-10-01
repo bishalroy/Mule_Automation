@@ -48,12 +48,11 @@
                 <configuration>
                   <deploymentType>arm</deploymentType>
                   <muleVersion>3.8.4</muleVersion>
-                  <uri>https://anypoint.mulesoft.com/hybrid/api/v1/applications/</uri>
+                  <uri>https://anypoint.mulesoft.com/</uri>
                   <target>mmdatawv-mesb-dc03-01-dev</target>
                   <targetType>server</targetType>
-                  <Authorization>bearer f15917c6-3b7c-49e6-b5d0-bdd7ea2a36c9</Authorization>
-                  <X-ANYPNT-ENV-ID>9f31703e-ddc9-4eff-b53a-24159cc83027</X-ANYPNT-ENV-ID>
-                  <X-ANYPNT-ORG-ID>4da9dbc6-fccc-4482-98ee-c9131df01021</X-ANYPNT-ORG-ID>
+                  <username>pams_apiuser_dev</username>
+                  <password>Muletest1234</password>
                   <environment>Production</environment>
                 </configuration>
                 <executions>
