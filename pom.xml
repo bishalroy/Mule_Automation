@@ -51,8 +51,10 @@
                   <uri>https://anypoint.mulesoft.com/apiplatform/repository/v2/organizations/4da9dbc6-fccc-4482-98ee-c9131df01021</uri>
                   <target>mmdatawv-mesb-dc03-01-dev</target>
                   <targetType>server</targetType>
-                  <username>pams_apiuser_dev</username>
-                  <password>Muletest1234</password>
+                  <property>
+                  <name>Authorization</name>
+                  <value>Bearer 0460435d-369c-493b-8880-6c69d5466c3b</value>
+                  </property>
                   <environment>Production</environment>              
                 </configuration>
                 <executions>
