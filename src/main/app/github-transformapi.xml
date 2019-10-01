@@ -7,7 +7,7 @@
 http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee/dw/current/dw.xsd">
-    <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="9514" doc:name="HTTP Listener Configuration"/>
+    <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="9515" doc:name="HTTP Listener Configuration"/>
     <flow name="github-transformapiFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/transformapi" doc:name="HTTP"/>
         <dw:transform-message doc:name="Transform Message">
@@ -16,6 +16,7 @@ http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee
 ---
 payload]]></dw:set-payload>
         </dw:transform-message>
-        <logger message="#[payload]" level="INFO" doc:name="Logger"/>
+        <object-to-string-transformer doc:name="Object to String"/>
+        <logger message="Payload is : #[payload]" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
