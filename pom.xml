@@ -48,11 +48,12 @@
                 <configuration>
                   <deploymentType>arm</deploymentType>
                   <muleVersion>3.8.4</muleVersion>
-                  <uri>https://anypoint.mulesoft.com/apiplatform/cisco-dev/admin/#/</uri>
+                  <uri>https://anypoint.mulesoft.com/hybrid/api/v1/applications/</uri>
                   <target>mmdatawv-mesb-dc03-01-dev</target>
                   <targetType>server</targetType>
-                  <username>bisroy</username>
-                  <password>Ronaldo7*1</password>
+                  <Authorization>bearer 7e488a83-af89-4620-9fbe-f9538469694f</Authorization>
+                  <X-ANYPNT-ENV-ID>9f31703e-ddc9-4eff-b53a-24159cc83027</X-ANYPNT-ENV-ID>
+                  <X-ANYPNT-ORG-ID>4da9dbc6-fccc-4482-98ee-c9131df01021</X-ANYPNT-ORG-ID>
                   <environment>Production</environment>
                 </configuration>
                 <executions>
