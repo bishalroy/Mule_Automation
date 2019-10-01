@@ -48,14 +48,17 @@
                 <configuration>
                   <deploymentType>arm</deploymentType>
                   <muleVersion>3.8.4</muleVersion>
-                  <uri>https://anypoint.mulesoft.com/</uri>
-                  <target>local-sandbox-server</target>
+                  <uri>https://anypoint.mulesoft.com/hybrid/api/v1/applications/</uri>
+                  <target>mmdatawv-mesb-dc03-01-dev</target>
                   <targetType>server</targetType>
                   <username>bisroy</username>
                   <password>Ronaldo7*1</password>
                   <environment>Production</environment>
-                  <businessGroup>Cisco-DEV/Integration Services</businessGroup>
-                  <businessGroupId>4da9dbc6-fccc-4482-98ee-c9131df01021</businessGroupId>
+                  <Authorization>bearer 8c8f9608-ac22-415e-8ef6-4ca8a96c4a60</Authorization>
+                  <X-ANYPNT-ENV-ID>9f31703e-ddc9-4eff-b53a-24159cc83027</X-ANYPNT-ENV-ID>
+                  <X-ANYPNT-ORG-ID>4da9dbc6-fccc-4482-98ee-c9131df01021</X-ANYPNT-ORG-ID>
+                  <artifactName>JNDIAuth_MMX_app</artifactName>
+                  <targetId>1785206</targetId>                 
                 </configuration>
                 <executions>
                  <execution>
