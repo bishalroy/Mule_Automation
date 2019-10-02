@@ -53,7 +53,7 @@
                   <targetType>server</targetType>
                   <username>pams_apiuser_dev</username>
                   <password>Muletest1234</password>
-                  <environment>Production</environment>              
+                  <environment>Sandbox</environment>              
                 </configuration>
                 <executions>
                  <execution>
