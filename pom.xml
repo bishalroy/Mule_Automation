@@ -48,10 +48,8 @@
                 <configuration>
                   <deploymentType>arm</deploymentType>
                   <muleVersion>3.8.4</muleVersion>
-                  <uri>https://anypoint.mulesoft.com/Cisco-DEV/</uri>
-                   <businessGroup>GIS/Integration Services</businessGroup>
-                  <businessGroupId>4da9dbc6-fccc-4482-98ee-c9131df01021</businessGroupId>
-                  <target>mmdatawv-mesb-dc03-01-dev</target>
+                  <uri>https://anypoint.mulesoft.com/</uri>
+                  <target>apm-idev3-01</target>
                   <targetType>server</targetType>
                   <username>pams_apiuser_dev</username>
                   <password>Muletest1234</password>
