@@ -49,11 +49,12 @@
                   <deploymentType>arm</deploymentType>
                   <muleVersion>3.8.4</muleVersion>
                   <uri>https://anypoint.mulesoft.com/</uri>
-                  <target>apm-idev3-01</target>
+                  <target>mmdatawv-mesb-dc03-01-dev</target>
                   <targetType>server</targetType>
                   <username>pams_apiuser_dev</username>
                   <password>Muletest1234</password>
-                  <environment>Sandbox</environment>              
+                  <environment>Production</environment>
+                  <businessGroup>GIS\Integration Services</businessGroup>              
                 </configuration>
                 <executions>
                  <execution>
