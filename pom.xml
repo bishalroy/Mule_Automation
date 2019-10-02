@@ -49,7 +49,7 @@
                   <deploymentType>arm</deploymentType>
                   <muleVersion>3.8.4</muleVersion>
                   <uri>https://anypoint.mulesoft.com/</uri>
-                  <businessGroup>Cisco-DEV/Integration Services</businessGroup>
+                  <businessGroup>Cisco-DEV/GIS/Integration Services</businessGroup>
                   <businessGroupId>4da9dbc6-fccc-4482-98ee-c9131df01021</businessGroupId>
                   <target>mmdatawv-mesb-dc03-01-dev</target>
                   <targetType>server</targetType>
